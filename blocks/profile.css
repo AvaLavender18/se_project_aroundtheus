@@ -23,14 +23,12 @@
     "description description";
   grid-template-columns: minmax(auto, 373px) auto;
   align-items: center;
-
 }
 
 .profile__title{
   grid-area: title;
   font-size: 40px;
   line-height: 48px;
-  font-weight: 500px;
   margin: 0 0 0 0;
   max-width: 373px;
 }
@@ -47,7 +45,7 @@
 .profile__subheader{
   grid-area: description;
   font-size: 18px;
-  /* line-height: 22px; */
+  line-height: normal;
   margin: 0 0 0 0;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -61,7 +59,9 @@
   height: 50px;
   margin-left: auto;
   border-color: white;
-
+  flex-shrink: 0;
+  border-radius: 3px;
+  border-width: 2px;
 }
 
 .profile__edit-button:hover{
@@ -123,11 +123,13 @@
 
  .profile__title{
   font-size: 22px;
+  line-height: normal;
  }
 
  .profile__subheader{
   font-size: 14px;
   max-width: 282px;
+  line-height: normal;
  }
 
  .profile__info{
