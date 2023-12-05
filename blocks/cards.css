@@ -42,7 +42,7 @@ margin-bottom: 45px;
 }
 
 .card__like_button{
-  background: transparent url(./images/Heart.svg) center no-repeat;
+  background: transparent url(../images/Heart.svg) center no-repeat;
   padding: 0 5px 0 5px;
   width: 21px;
   height: 18px;
