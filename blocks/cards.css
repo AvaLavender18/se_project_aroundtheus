@@ -5,7 +5,7 @@ width: 100%;
 margin-bottom: 45px;
 }
 
-.card__list{
+.cards__list{
  list-style: none;
  display: grid;
  grid-template-columns: repeat(auto-fit, 282px);
@@ -41,7 +41,7 @@ margin-bottom: 45px;
   padding: 0;
 }
 
-.card__like_button{
+.card__like-button{
   background: transparent url(../images/Heart.svg) center no-repeat;
   padding: 0 5px 0 5px;
   width: 21px;
@@ -49,7 +49,7 @@ margin-bottom: 45px;
   border-color: transparent;
 }
 
-.card__like_button:hover{
+.card__like-button:hover{
   opacity: 0.6;
 }
 
