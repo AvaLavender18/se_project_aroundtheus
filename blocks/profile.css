@@ -59,8 +59,9 @@
   background: transparent url(../images/Add\ Button.svg) center no-repeat;
   width: 150px;
   height: 50px;
-  margin-left: 0 auto;
+  margin-left: auto;
   border-color: white;
+
 }
 
 .profile__edit-button:hover{
@@ -69,6 +70,46 @@
 
 .profile__add-button:hover{
   opacity: 0.6;
+}
+
+@media screen and (max-width: 750px) {
+  .profile{
+    flex-direction: column;
+   }
+
+   .profile__picture{
+    margin: 0 auto;
+   }
+
+   .profile__title{
+    font-size: 22px;
+   }
+
+   .profile__subheader{
+    font-size: 14px;
+    max-width: 282px;
+   }
+
+   .profile__info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 36px;
+   }
+
+   .profile__subheader{
+    width: 100%;
+    text-align: center;
+   }
+
+   .profile__add-button{
+    max-width: 282px;
+    width: 100%;
+    margin: 0 auto;
+   }
 }
 
 @media screen and (max-width: 320px){
@@ -99,7 +140,12 @@
   padding-bottom: 36px;
  }
 
- .profile__add_button{
+ .profile__subheader{
+  width: 100%;
+  text-align: center;
+ }
+
+ .profile__add-button{
   max-width: 282px;
   width: 100%;
   margin: 0 auto;

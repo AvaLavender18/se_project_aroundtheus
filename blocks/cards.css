@@ -53,8 +53,29 @@ margin-bottom: 45px;
   opacity: 0.6;
 }
 
+@media screen and (max-width: 515px) {
+  .cards{
+    margin-top: 36px;
+  }
+
+  .cards__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card{
+    width: 100%;
+
+  }
+}
+
 @media screen and (max-width: 320px) {
   .cards{
     margin-top: 36px;
+  }
+
+  .card{
+    width: 100%;
   }
 }
