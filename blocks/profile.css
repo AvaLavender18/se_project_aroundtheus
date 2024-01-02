@@ -29,6 +29,7 @@
   grid-area: title;
   font-size: 40px;
   line-height: 48px;
+  font-weight: 500;
   margin: 0 0 0 0;
   width: 373px;
   text-overflow: ellipsis;
@@ -77,7 +78,7 @@
 
 @media screen and (max-width: 750px) {
   .profile{
-    flex-direction: column;
+    display: grid;
    }
 
    .profile__picture{
@@ -96,8 +97,8 @@
    }
 
    .profile__info{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto;
     width: 100%;
     justify-content: center;
     text-align: center;
