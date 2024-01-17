@@ -105,7 +105,7 @@
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    /* padding-top: 26px; */
+    padding-top: 26px;
     padding-bottom: 36px;
    }
 
@@ -128,7 +128,6 @@
  .profile__title{
   padding-top: 26px;
   font-size: 22px;
-  line-height: normal;
   max-width: 196px;
   width: 100%;
  }
@@ -136,7 +135,6 @@
  .profile__subheader{
   font-size: 14px;
   max-width: 282px;
-  line-height: normal;
   width: 100%;
   text-align: center;
  }
@@ -148,10 +146,16 @@
   width: 100%;
   align-items: baseline;
   text-align: center;
+  padding-top: 0;
   padding-bottom: 36px;
   line-height: normal;
  }
 
+ .profile__edit-button{
+  height: 18px;
+  width: 18px;
+  border-color: white;
+ }
 
  .profile__add-button{
   max-width: 282px;
