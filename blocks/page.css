@@ -1,10 +1,10 @@
-.page{
+.page {
   background-color: black;
   color: white;
   font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
-.page__content{
+.page__content {
   margin-left: 200px;
   margin-right: 200px;
   max-width: 880px;
@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .page{
+  .page {
     max-width: 320px;
     width: 100%;
   }
