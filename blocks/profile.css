@@ -3,6 +3,7 @@
   align-items: center;
   padding: 40px 0 60px 0;
   max-width: 880px;
+  height: 120px;
   width: 100%;
 }
 
@@ -13,7 +14,6 @@
   object-fit: cover;
   background-position: center;
   margin-right: 24px;
-  margin-left: 19px;
 }
 
 .profile__info {
@@ -81,6 +81,10 @@
 }
 
 @media screen and (max-width: 900px) {
+  .profile__picture{
+    margin-left: 19px;
+  }
+
   .profile__add-button {
     margin-left: 38px;
   }
@@ -89,6 +93,7 @@
 @media screen and (max-width: 750px) {
   .profile {
     display: grid;
+    height: auto;
   }
 
   .profile__picture {
@@ -104,7 +109,6 @@
 
   .profile__subheader {
     font-size: 14px;
-    max-width: 282px;
     width: 100%;
     text-align: center;
   }
