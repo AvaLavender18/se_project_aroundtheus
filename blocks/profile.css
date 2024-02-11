@@ -109,13 +109,11 @@
 
   .profile__subheader {
     font-size: 14px;
-    width: 100%;
     text-align: center;
   }
 
   .profile__info {
     grid-template-columns: auto;
-    width: 100%;
     gap: 7px 18px;
     justify-content: center;
     text-align: center;
@@ -133,7 +131,6 @@
 
 @media screen and (max-width: 320px) {
   .profile {
-    flex-direction: column;
     padding-bottom: 25px;
   }
 
@@ -144,15 +141,10 @@
   .profile__title {
     padding-top: 26px;
     max-width: 196px;
-    width: 100%;
-    margin: 0 auto;
   }
 
   .profile__subheader {
-
     max-width: 282px;
-    width: 100%;
-    margin: 0 auto;
   }
 
   .profile__info {
@@ -164,11 +156,5 @@
     height: 18px;
     width: 18px;
     border-color: white;
-  }
-
-  .profile__add-button {
-    max-width: 282px;
-    width: 100%;
-    margin: 0 auto;
   }
 }
