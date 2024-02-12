@@ -81,12 +81,10 @@
 }
 
 @media screen and (max-width: 900px) {
-  .profile__picture{
-    margin-left: 19px;
-  }
-
-  .profile__add-button {
-    margin-left: 38px;
+  .profile{
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
