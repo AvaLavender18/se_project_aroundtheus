@@ -72,10 +72,6 @@ input[type=text]{
 }
 
 @media screen and (max-width: 530px) {
- /* .modal{
-  display: grid;
- } */
-
   .modal__container{
     max-width: 246px;
     width: 100%;
