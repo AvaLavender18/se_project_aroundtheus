@@ -26,16 +26,38 @@ const initialCards = [
 
 ];
 
+// elements
 const profileEditBtn = document.querySelector("#profile-edit-button");
 const profileEditModal = document.querySelector("#profile-edit-modal");
-
-profileEditBtn.addEventListener("click", ()=>{
-  profileEditModal.classList.add("modal_opened");
-});
-
+const profileTitle = document.querySelector(".profile__title");
+const profileSubheader = document.querySelector(".profile__subheader");
+const profileTitleInput = document.querySelector("#profile-title-input");
+const profileSubheaderInput = document.querySelector("#profile-subheader-input");
+const profileEditForm = profileEditModal.querySelector(".modal__form");
 const profileModalBtn = document.querySelector("#modal-profile-button");
 const profileModalBtnClose = document.querySelector("#profile-edit-modal");
 
-profileModalBtn.addEventListener("click", ()=>{
-  profileModalBtnClose.classList.add("modal__close");
+// functions
+function closePopup(){
+  profileModalBtnClose.classList.remove("modal_opened");
+}
+
+// event handlers
+function handleProfileEditSubmit(e){
+  e.preventDefault();
+  profileTitle.textContent = profileTitleInput.value;
+  profileSubheader.textContent = profileSubheaderInput.value;
+  console.log("TAlly Man");
+  closePopup();
+}
+
+// event listeners
+profileEditBtn.addEventListener("click", ()=>{
+  profileTitleInput.value = profileTitle.textContent;
+  profileSubheaderInput.value = profileSubheader.textContent;
+  profileEditModal.classList.add("modal_opened");
 });
+
+profileModalBtn.addEventListener("click", closePopup);
+
+profileEditForm.addEventListener("submit", handleProfileEditSubmit);
