@@ -114,5 +114,7 @@ input[type=text]{
     padding-bottom: 40px;
     max-width: 244px;
     width: 100%;
+    font-size: 18px;
+    padding-bottom: 0;
   }
 }
