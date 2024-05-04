@@ -59,7 +59,6 @@ function handleProfileEditSubmit(e){
   e.preventDefault();
   profileTitle.textContent = profileTitleInput.value;
   profileSubheader.textContent = profileSubheaderInput.value;
-  console.log("TAlly Man");
   closePopup();
 }
 
