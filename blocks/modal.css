@@ -108,13 +108,17 @@ input[type=text]{
   .modal__form{
     max-width: 244px;
     width: 100%;
+    padding: 0 0 15px 5px;
   }
 
   .modal__heading{
-    padding-bottom: 40px;
-    max-width: 244px;
+    padding: 15px 0 65px 5px;
+    max-width: 238px;
     width: 100%;
     font-size: 18px;
-    padding-bottom: 0;
+  }
+
+  .modal__button{
+    padding-left: 5px;
   }
 }
