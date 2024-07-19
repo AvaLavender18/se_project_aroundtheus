@@ -31,12 +31,16 @@
 }
 
 .card__like-button {
-  background: transparent url(../images/heart.svg) center no-repeat;
+  background: transparent url("../images/heart.svg") center no-repeat;
   padding: 5px 10px 5px 10px;
   margin-right: 20px;
   width: 21px;
   height: 18px;
   border: none;
+}
+
+.card__like-button_active{
+  background-image: url("../images/Union.svg");
 }
 
 .card__like-button:hover {
