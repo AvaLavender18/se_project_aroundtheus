@@ -1,0 +1,74 @@
+.add__card{
+  position: fixed;
+  background-attachment: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 99;
+  display: flex;
+  padding: 0 19px 0 19px;
+  display: none;
+}
+
+.add__opened{
+  display: flex;
+}
+
+.add__heading{
+  font-weight: 900;
+  font-size: 24px;
+  font-family: inter;
+  margin: 0 0  50px 0;
+}
+
+input[type=text]{
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 0 0 30px 0;
+  width: 100%;
+}
+
+.add__form{
+  display: flex;
+  flex-direction: column;
+  font-family: "inter", Arial, Helvetica, sans-serif;
+  color: black;
+  border: transparent;
+  border-bottom: rgba(0, 0, 0, 0.5);
+}
+
+.add__button{
+  background-color: black;
+  color: #fff;
+  height: 51px;
+  border-radius: 2px;
+  border: none;
+  margin-top: 20px;
+}
+
+.add__container{
+  background-color: #fff;
+  margin: auto;
+  padding: 36px;
+  max-width: 430px;
+  max-height: 330px;
+  border-radius: 10px;
+  position: relative;
+  max-width: 360px;
+  width: 100%;
+}
+
+.add__close{
+  background-image: url(../images/Close\ Icon.svg);
+  border: none;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: calc(100% + 5px);
+  left: calc(100% + 5px);
+  cursor: pointer;
+}
